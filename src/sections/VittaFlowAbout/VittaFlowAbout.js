@@ -17,7 +17,7 @@ const VittaFlowAbout = () => {
     {
       heading: "Worldwide",
       content:
-        "We always help you save and manage your finances, we have a system that can manage expenses that are limited each month",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
       img: Globe,
     },
     {
