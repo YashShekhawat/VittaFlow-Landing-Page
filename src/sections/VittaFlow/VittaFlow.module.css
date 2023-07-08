@@ -1,0 +1,17 @@
+
+.mainContainer {
+  background-image: url("../../assets/Gradient2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.specialTextColor {
+  background-image: linear-gradient(90deg, #ffe000 0%, #7dff16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subHeading {
+  color: #f6f6f6;
+}

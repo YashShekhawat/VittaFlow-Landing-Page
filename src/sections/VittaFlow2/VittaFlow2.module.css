@@ -1,0 +1,23 @@
+.textContainer {
+  text-align: center;
+  color: #fff;
+}
+
+.buttonStyle {
+  background: var(
+    --star-green,
+    linear-gradient(90deg, #ffe000 0%, #7dff16 100%)
+  );
+  border: none;
+  padding: 18px 45px;
+  font-size: 16px;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+
+.specialText {
+  background-image: linear-gradient(90deg, #ffe000 0%, #7dff16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
