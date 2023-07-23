@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Logo } from "../Logo";
 import Menu from "../../assets/Menu.svg";
+import logo from "../../assets/logo-vf.png";
 
 import * as classes from "./Navbar.module.css";
 
@@ -32,9 +33,9 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`text-white flex  flex-wrap w-full p-6 md:navbar-lg navbar-sm justify-between items-center relative`}
+      className={`text-white flex  flex-wrap w-full px-6 py-3 md:navbar-lg navbar-sm justify-between items-center relative`}
     >
-      <Logo />
+      <img src={logo} width={43} alt="Logo" style={{filter : "invert(1)"}} />
 
       <img
         src={Menu}

@@ -22,7 +22,8 @@ const HeroSection = () => {
             typeScale={"subHeading"}
             className={`${classes["hero-sub-heading"]} w-11/12 md:w-9/12`}
           >
-            We make your money work for you.
+            Experience your money working for you like never before by making
+            VittaFlow your financial partner.
           </Typography>
         </div>
 

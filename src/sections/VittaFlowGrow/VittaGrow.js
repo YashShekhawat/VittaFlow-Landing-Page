@@ -11,27 +11,27 @@ import * as classes from "./VittaGrow.module.css";
 
 const cardsData = [
   {
-    content: "Send Pay and get paid instantly",
-    img: Target,
-  },
-  {
-    content: "Spend Save on everyday spending",
-    img: Dollar,
-  },
-  {
-    content: "Bank Faster, simpler banking",
+    content: "Equity Cash",
     img: Chart,
   },
   {
-    content: "Stocks Buy stocks for as little as $1",
+    content: "Real-Estate",
+    img: Target,
+  },
+  {
+    content: "Currency",
+    img: Dollar,
+  },
+  {
+    content: "MCX",
     img: Circles,
   },
   {
-    content: "Bitcoin Break into bitcoin",
+    content: "Bonds",
     img: Shield,
   },
   {
-    content: "Taxes File for free and get your max refund",
+    content: "Derivatives",
     img: Book,
   },
 ];
@@ -44,21 +44,20 @@ export const VittaFlowGrow = () => {
       <div className="flex flex-col md:flex-row gap-12 justify-between">
         <div className="flex flex-col gap-3">
           <h1 className="text-white">
-            Together <span className={classes["specialText"]}>We Grow</span>
+            How we grow your
+            <span className={classes["specialText"]}> Money</span>
           </h1>
 
           <Typography
             typeScale={"subText"}
             className={`${classes["subHeading"]}`}
           >
-            We've listed a few industries that we like. If you're not sure if
-            your business fits the bill, we'd love to talk anyway.
+            Here are a few ways with which we skyrocket your hard-earned wealth
+            and the current most active markets in the space and among our
+            analysts.
           </Typography>
         </div>
-        <div
-          className="flex flex-wrap gap-6 justify-center md:justify-end
-        "
-        >
+        <div className="flex flex-wrap gap-6 justify-center md:justify-end">
           {cardsData.map((card) => (
             <GrowCard content={card.content} icon={card.img} width={300} />
           ))}

@@ -50,10 +50,8 @@ export const Footer = () => {
         <div className={`flex flex-col gap-5 text-white md:w-4/12`}>
           <Logo width={125} height={23} />
           <Typography typeScale={"tinyText"} className={classes["footer-text"]}>
-            Since then, the company has grown organically to. Vitta Flow is the
-            world's largest trading platform, with $12 billion worth of currency
-            trading and 500,000 tickets sold daily to tens of thousands of
-            traders worldwide.
+            We specialize in stock market advice and portfolio management,
+            aiming for maximum returns on your investments.
           </Typography>
         </div>
 
@@ -79,7 +77,9 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className={`${classes["footer-text"]} text-xs text-center font-semibold`}>
+      <div
+        className={`${classes["footer-text"]} text-xs text-center font-semibold`}
+      >
         Vitta Flow © {new Date().getFullYear()}, All Rights Reserved
       </div>
     </div>

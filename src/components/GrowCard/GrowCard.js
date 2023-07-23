@@ -11,10 +11,7 @@ export const GrowCard = ({ icon, content, width }) => {
 
         <div>
           <Typography className={`text-white`} typeScale={"captionText2"}>
-            {" "}
-            {content.split(" ")[0]}
-            <br/>
-            {content.split(" ").slice(1).join(" ")}
+            {content}
           </Typography>
         </div>
       </div>

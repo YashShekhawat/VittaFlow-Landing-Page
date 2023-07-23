@@ -11,7 +11,7 @@ const VittaFlow = () => {
     >
       <div className={"flex flex-col gap-5"}>
         <h1 className="text-white md:w-2/3">
-          <span className={classes.specialTextColor}>Crypto: </span>Where
+          <span className={classes.specialTextColor}>Vitta Flow: </span>Where
           Innovation Meets Financial Freedom
         </h1>
         <Typography typeScale={"subText"} className={classes.subHeading}>

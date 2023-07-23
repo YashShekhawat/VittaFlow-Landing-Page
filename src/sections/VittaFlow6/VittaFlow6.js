@@ -23,14 +23,14 @@ const VittaFlow6 = () => {
     },
     {
       heading: "Withdraw Monthly Returns",
-      content: "Withdraw monthly returns up to 14-18% with no hidden charges.",
+      content: "Earn 14-18% monthly returns with transparency, no hidden charges. Diversified, professional management, risk management, customer support. Invest now!",
       img: num3,
     },
   ];
 
   return (
-    <div className={`py-24 px-8 md:px-28`}>
-      <div className="flex flex-col items-center gap-8 text-white">
+    <div className={`py-10 md:pb-20 px-8 md:px-28`}>
+      {/* <div className="flex flex-col items-center gap-8 text-white">
         <span className="font-light text-sm">
           Vitta flow has been featured on
         </span>
@@ -41,7 +41,7 @@ const VittaFlow6 = () => {
           <PortfolioLogo name={"Company"} logo={Company} />
           <PortfolioLogo name={"Company"} logo={Company} />
         </div>
-      </div>
+      </div> */}
       <div
         className={`${classes.wrapper} md:mt-36 mt-24 mb-10 flex flex-col gap-10`}
       >

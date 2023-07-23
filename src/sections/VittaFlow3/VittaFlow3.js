@@ -9,16 +9,17 @@ const VittaFlow3 = () => {
         <Typography typeScale={"captionText"}>OUR FEATURE</Typography>
         <div className="flex flex-col gap-5 mt-3">
           <h1 className={`md:w-8/12`}>
-            Communication via automatic{" "}
-            <span className={classes.specialText}> Actions by AI </span>
+            Automated Trading and
+            <span className={classes.specialText}> Live Support </span>
           </h1>
 
           <div className={`md:flex items-start justify-between`}>
             <div className="md:w-4/12">
               <Typography typeScale={"subText"} className={classes.subText2}>
-                Why kept very ever home mrs. Considered sympathize ten
-                uncommonly occasional assistance sufficient not. Letter of on
-                become he tended active enable to.
+                Our AI-assisted algorithm handles your demat account, reflecting
+                decisions based on your capital, risk appetite, and other
+                factors. Enjoy 24/7 live trade support for transparency and
+                entitlements.
               </Typography>
             </div>
             <div className={"flex justify-center md:-mt-10 mt-10"}>
